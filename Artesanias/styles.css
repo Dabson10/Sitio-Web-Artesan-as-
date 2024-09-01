@@ -1,0 +1,169 @@
+
+body{
+    margin:0;
+    padding:0;
+    
+}
+header{
+    display:block
+}
+#header{
+    background-color:#f7f6fb;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height:4em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:fixed;
+}
+#nameHeader{
+    font-style:italic;
+}
+#linksHeader{
+    justify-content:space-around;
+    display:flex;
+    padding:.5em;
+    /* margin-top:0.5em */
+    
+}
+#linksHeader a{
+    padding:.5em;
+}
+.link{
+    color:#3e251a;
+    text-decoration:none;
+    margin-left:1.4em;
+    padding:.5em;
+}
+.link:hover{
+    background-color: #7e878e;
+    color:#FFFF;
+    border-radius:0em 0em .4em .4em;
+    border:solid .5px  #bebcc1;
+    border-top:none;
+    padding:.5em;
+}
+.link:active{
+color:#000;
+text-decoration:none;
+}
+
+/* Contenido */
+
+#contenido{
+    display:flex;
+    align-items:center;
+}
+.imagenF{
+    max-width: 100%;
+    width: auto;
+    height:25%;
+    display:flex;
+    
+}
+#tematica{
+    position:relative;
+    display:flex;    
+    bottom:30%;
+    right:85%;
+    width: 100%;
+    font-size: 3em;
+    font-style: italic;
+}
+#tematica p {
+    color:#fff;
+    font-size:1em;
+}
+/* Seccion de informacion */
+
+#infoArt{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around;
+    background-color:#fff;
+    padding:.63em;
+
+    
+}
+
+.foto2{
+    max-width: 25em;
+    width: auto;
+    display:flex;
+    height: 18.75em;
+    padding:1em 1em 1em 1em;
+    border-radius:2em;
+}
+
+.info{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    color:#8ba493;
+    font-size: 1.5em;
+}
+/* footer */
+
+#footer{
+    background-color: #4c5c5c;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:.5em;
+}
+.pieInfo{
+    color:rgba(209,207,207);
+} p{
+    font-size: 1.6em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:oblique;
+    align-items:center;
+    padding-left:1em;
+}
+
+.pieInfo a{
+    color:#c9c9c9;
+    text-decoration:none;
+    padding-left:2em;
+    font-size:1.2em;
+}
+.pieInfo a:hover{
+    text-shadow: .5px .5px .3px rgb(209, 207, 207) ;
+}
+
+.listas{
+    list-style-type:none;
+    padding:0;
+    font-size:1.4em;
+}
+
+.pieLinks{
+    color:#c9c9c9;
+    text-decoration:none;
+    line-height: 1.7;
+}
+.pieLinks:hover{
+    text-shadow: .5px .5px .3px rgb(209, 207, 207) ;
+}
+
+#numTel p{
+    font-size:1.3em;
+    padding-right:1.6em;
+    margin-bottom:0;
+    color:#c9c9c9;
+}
+#numTel ul {
+    list-style-type:none;
+}
+#numTel ul li{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    color:#c9c9c9;
+    text-decoration:none;
+    font-size:1.4em;
+    line-height: 2;
+    margin:0;
+    padding-right:1.3em;
+}
